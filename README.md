@@ -1,5 +1,5 @@
 # **ComputerAcademy**
-
+&nbsp;
 
 ## Descripción
 Se trata de una academia tecnológica dedicada a impartir cursos de formación. El usuario tendrá libre acceso a los cursos gratuitos, además de interactuar con otros usuarios en los foros habilitados sin necesidad de registro. También podrá acceder a cursos premium mediante registro y reserva de plaza.
