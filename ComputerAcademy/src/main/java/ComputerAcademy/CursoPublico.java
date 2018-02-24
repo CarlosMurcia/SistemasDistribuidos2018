@@ -12,54 +12,49 @@ public class CursoPublico {
 	@GeneratedValue (strategy = GenerationType.AUTO)
 	private long id;
 	
-	private String nuevoCursoPublico ;
-	private String descripcionCursoPublico ;
-	private String enlaceCursoPublico ;
+	private String curso ;
+	private String descripcion ;
+	private String enlace ;
 	
 	public CursoPublico(){
 		
 	}
 
-	public CursoPublico  (String nuevoCursoPublico , String descripcionCursoPublico , String enlaceCursoPublico) {
+	public CursoPublico  (String curso , String descripcion , String enlace) {
 		super();
-		this.nuevoCursoPublico = nuevoCursoPublico;
-		this.descripcionCursoPublico = descripcionCursoPublico;
-		this.enlaceCursoPublico = enlaceCursoPublico;
+		this.curso = curso;
+		this.descripcion = descripcion;
+		this.enlace = enlace;
 		
 	}
 	
-	public String getNuevoCursoPublico() {
-		return nuevoCursoPublico;
+	public String Curso() {
+		return curso;
 	}
 
-	public void setNuevoCursoPublico(String nuevoCursoPublico) {
-		this.nuevoCursoPublico = nuevoCursoPublico;
+	public void setCurso(String curso) {
+		this.curso = curso;
 	}
 
-	public String getDescripcionCursoPublico() {
-		return descripcionCursoPublico;
+	public String getDescripcion() {
+		return descripcion;
 	}
 
-	public void setDescripcionCursoPublico(String descripcionCursoPublico) {
-		this.descripcionCursoPublico = descripcionCursoPublico;
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
 	}
 
-	public String getEnlaceCursoPublico() {
-		return enlaceCursoPublico;
+	public String getEnlace() {
+		return enlace;
 	}
 
-	public void setEnlaceCursoPublico(String enlaceCursoPublico) {
-		this.enlaceCursoPublico = enlaceCursoPublico;
+	public void setEnlace(String enlace) {
+		this.enlace = enlace;
 	}
 	
-
-
 	@Override
 	public String toString() {
-		return "CursoPublico [nuevoCursoPublico=" + nuevoCursoPublico + ", descripcionCursoPublico=" + descripcionCursoPublico + ", enlaceCursoPublico=" + enlaceCursoPublico + "]";
+		return "CursoPublico [curso=" + curso + ", descripcion=" + descripcion + ", enlace=" + enlace + "]";
 	}
 	
 }
-
-
-

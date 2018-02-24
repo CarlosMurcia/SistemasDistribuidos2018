@@ -41,7 +41,6 @@ public class Foro {
 		this.comentario = comentario;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Foro [nombre=" + nombre + ", comentario=" + comentario + "]";

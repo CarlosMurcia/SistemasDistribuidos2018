@@ -1,0 +1,18 @@
+<html>
+<center>
+	<h1>Cursos Privados</h1>
+	<head>
+	<meta charset="UTF-8"/>
+	</head>
+	<body style="background-color:#F5F5F5;">
+	 	<p style="border: ridge #000000 1px;">
+			{{#privados}}
+			{{curso}} {{descripcion}} {{enlace}} 
+			<a href="/reserva"><button>Reservar</button></a><br></br>
+			{{/privados}}
+		</p>
+		<br><br/>
+		<a href="/Inicio"><button>Volver</button></a>
+		<br><br/>
+	</body>
+</html>
