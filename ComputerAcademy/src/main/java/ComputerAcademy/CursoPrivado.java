@@ -12,54 +12,49 @@ public class CursoPrivado {
 	@GeneratedValue (strategy = GenerationType.AUTO)
 	private long id;
 	
-	private String nuevoCursoPrivado;
-	private String descripcionCursoPrivado;
-	private String enlaceCursoPrivado;
+	private String curso;
+	private String descripcion;
+	private String enlace;
 	
 	public CursoPrivado(){
 		
 	}
 
-	public CursoPrivado (String nuevoCursoPrivado, String descripcionCursoPrivado, String enlaceCursoPrivado) {
+	public CursoPrivado (String curso, String descripcion, String enlace) {
 		super();
-		this.nuevoCursoPrivado = nuevoCursoPrivado;
-		this.descripcionCursoPrivado = descripcionCursoPrivado;
-		this.enlaceCursoPrivado = enlaceCursoPrivado;
+		this.curso = curso;
+		this.descripcion = descripcion;
+		this.enlace = enlace;
 		
 	}
 	
-	public String getNuevoCursoPrivado() {
-		return nuevoCursoPrivado;
+	public String getCurso() {
+		return curso;
 	}
 
-	public void setNuevoCursoPrivado(String nuevoCursoPrivado) {
-		this.nuevoCursoPrivado = nuevoCursoPrivado;
+	public void setCurso(String curso) {
+		this.curso =  curso;
 	}
 
-	public String getDescripcionCursoPrivado() {
-		return descripcionCursoPrivado;
+	public String getDescripcion() {
+		return descripcion;
 	}
 
-	public void setDescripcionCursoPrivado(String descripcionCursoPrivado) {
-		this.descripcionCursoPrivado = descripcionCursoPrivado;
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
 	}
 
-	public String getEnlaceCursoPrivado() {
-		return enlaceCursoPrivado;
+	public String getEnlace() {
+		return enlace;
 	}
 
-	public void setEnlaceCursoPrivado(String enlaceCursoPrivado) {
-		this.enlaceCursoPrivado = enlaceCursoPrivado;
+	public void setEnlace(String enlace) {
+		this.enlace = enlace;
 	}
 	
-
-
 	@Override
 	public String toString() {
-		return "CursoPrivado [nuevoCursoPrivado=" + nuevoCursoPrivado + ", descripcionCursoPrivado=" + descripcionCursoPrivado + ", enlaceCursoPrivado=" + enlaceCursoPrivado + "]";
+		return "CursoPrivado [curso=" + curso + ", descripcion=" + descripcion + ", enlace=" + enlace + "]";
 	}
 	
 }
-
-
-
