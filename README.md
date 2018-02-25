@@ -18,3 +18,24 @@ Mediante servicio Rest, al registrarse y reservar un curso Premium, manda un cor
 ## Equipo de Desarrollo
   * Carlos Murcia García, ca.murcia@alumnos.urjc.es, github:CarlosMurcia
   * Rosa Román Martínez, rm.roman@alumnos.urjc.es, github: RosaRM
+  
+## Capturas de Pantalla
+
+- [HOME](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Home.JPG)
+- [NUEVO USUARIO](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Nuevo%20usuario.JPG)
+- [USUARIO GUARDADO](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/usuario%20guardado.JPG)
+- [FORO](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/foro.JPG)
+- [COMENTARIO GUARDADO](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/comentario%20guardado.JPG)
+- [CURSOS GRATUITOS](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/cursos%20gratuitos.JPG)
+- [AREA PRIVADA](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/area%20privada.JPG)
+- [CURSOS PRIVADOS](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/cursos%20privados.JPG)
+- [RESERVA DE PLAZA](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/reserva.JPG)
+- [RESERVA GUARDADA](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/reserva%20guardada.JPG)
+
+
+## Diagramas
+
+- [DIAGRAMA DE NAVEGACION](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Diagrama%20Navegaci%C3%B3n.JPG)
+- [DIAGRAMA DE CLASES](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/diagrama%20de%20clases%20.JPG)
+- [DIAGRAMA E/R](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Diagrama%20ER.JPG)
+
