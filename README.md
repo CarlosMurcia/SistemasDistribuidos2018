@@ -20,7 +20,7 @@ Mediante servicio Rest, al registrarse , manda un correo al usuario.
   
 ## Capturas de Pantalla
 
--
+-<img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/LoginFaseIII.jpg" />
 
 
 ## Diagramas
