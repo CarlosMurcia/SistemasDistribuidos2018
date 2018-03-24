@@ -19,8 +19,8 @@ Mediante servicio Rest, al registrarse , manda un correo al usuario.
   * Rosa Román Martínez, rm.roman@alumnos.urjc.es, github: RosaRM
   
 ## Capturas de Pantalla
-
--<img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/LoginFaseIII.jpg" />
+ * Pagina Login
+<img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/LoginFaseIII.jpg" />
 
 
 ## Diagramas
