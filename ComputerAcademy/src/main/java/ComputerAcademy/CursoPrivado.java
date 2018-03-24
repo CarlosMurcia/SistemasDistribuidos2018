@@ -61,6 +61,13 @@ public class CursoPrivado {
 	public void setApuntes(String apuntes) {
 		this.apuntes = apuntes;
 	}
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 	@Override
 	public String toString() {
 		return "CursoPrivado [curso=" + curso + ", descripcion=" + descripcion + ", enlace=" + enlace + ",apuntes=" +  apuntes +"]";
