@@ -1,10 +1,10 @@
 <html>
 <center>
-<h1> Dejanos tu comentario</h1>
+<h1><font face= "Monospace">DÉJANOS TU COMENTARIO</font></h1>
 <head>
 	<meta charset="UTF-8"/>
 </head>
-<body style="background-color:#F5F5F5;">
+<body style="background-color:#65919a;">
 	<form action="/comentario" method="post">
 		<p>Nombre: </p>
 		<input type='text' name='nombre'/>
@@ -13,8 +13,14 @@
 		<textarea name='comentario' rows=5 cols=40></textarea> 
 		<br></br>
 		<input type='submit' value='Participar'/>
+		<input type="hidden" name="_csrf" value="{{token}}"/>
 	</form>
 		<a href="/"><button>Volver</button></a>
-</body>
+		<input type="hidden" name="_csrf" value="{{token}}"/>
 </center>
+<br></br>
+		{{#foros}}
+			{{nombre}} : {{comentario}}<br></br>
+		{{/foros}}
+</body>
 </html>

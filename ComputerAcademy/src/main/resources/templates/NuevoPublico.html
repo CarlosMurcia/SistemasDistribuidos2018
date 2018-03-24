@@ -1,0 +1,23 @@
+<html>
+<center>
+<h1><font face= "Monospace">NUEVO CURSO PUBLICO</font></h1> 
+<head>
+	<meta charset="UTF-8"/>
+</head>
+<body style="background-color:#65919a;">
+	<form action="/curso/guardado" method="post">
+		<p>Curso: </p>
+		<input type='text' name='curso'/>
+		<p>Descripcion del curso: </p>
+		<input type='text' name='descripcion'/>
+		<p>Enlace: </p>
+		<input type='text' name='enlace'/>
+		<br></br>
+		<input type='submit' value='Guardar'/>
+		<input type="hidden" name="_csrf" value="{{token}}"/>
+	</form>
+	<a href="/admin"><button>Volver</button></a>
+		<input type="hidden" name="_csrf" value="{{token}}"/>
+</body>
+</center>
+</html>

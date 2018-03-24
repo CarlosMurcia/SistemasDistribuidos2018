@@ -1,16 +1,17 @@
 <html>
 	<center>
-	<h1>Cursos Gratuitos</h1>
+	<h1><font face= "Monospace">CURSOS PUBLICOS</font></h1>
 	<head>
 		<meta charset="UTF-8"/>
 	</head>
-	<body style="background-color:#F5F5F5;">
+	<body style="background-color:#65919a;">
 	 	<p style="border: ridge #000000 1px;">
-		{{#publicos}}
-		{{curso}} {{descripcion}} {{enlace}}<br></br>
-		{{/publicos}}
+		{{#CursosPublico}}
+		{{curso}} : {{descripcion}} <a href="{{enlace}}"target="_blank"><button>Accede</button></a><br></br>
+		{{/CursosPublico}}
 		</p>
 		<br><br/>
 		<a href="/"><button>Volver</button></a>
+		<input type="hidden" name="_csrf" value="{{token}}"/>
 	</body>
 </html>
