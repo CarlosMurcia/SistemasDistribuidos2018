@@ -1,21 +1,27 @@
 <html>
 <center>
-<h1>NUEVO USUARIO</h1>
+<h1><font face= "Monospace">NUEVO USUARIO</font></h1> 
 <head>
 	<meta charset="UTF-8"/>
 </head>
-<body style="background-color:#F5F5F5;">
+<body style="background-color:#65919a;">
 	<form action="/usuario/guardado" method="post">
 		<p>Nombre: </p>
 		<input type='text' name='nombre'/>
+		<p>Apellidos: </p>
+		<input type='text' name='apellidos'/>
+		<p>Telefono: </p>
+		<input type='text' name='telefono'/>
 		<p>Email:</p>
 		<input type='text' name='email'/>
+		<p>Password:</p>
+		<input type='password' name='password'/>
 		<br></br>
 		<input type='submit' value='Registrarse'/>
+		<input type="hidden" name="_csrf" value="{{token}}"/>
 	</form>
-	<form action="/" method="post">
-		<input type='submit' value='Volver'/>
-	</form>
+	<a href="/"><button>Volver</button></a>
+		<input type="hidden" name="_csrf" value="{{token}}"/>
 </body>
 </center>
 </html>

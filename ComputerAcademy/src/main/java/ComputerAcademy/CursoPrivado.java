@@ -15,16 +15,18 @@ public class CursoPrivado {
 	private String curso;
 	private String descripcion;
 	private String enlace;
+	private String apuntes;
 	
 	public CursoPrivado(){
 		
 	}
 
-	public CursoPrivado (String curso, String descripcion, String enlace) {
+	public CursoPrivado (String curso, String descripcion, String enlace,String apuntes) {
 		super();
 		this.curso = curso;
 		this.descripcion = descripcion;
 		this.enlace = enlace;
+		this.apuntes = apuntes;
 		
 	}
 	
@@ -52,9 +54,23 @@ public class CursoPrivado {
 		this.enlace = enlace;
 	}
 	
+	public String getApuntes() {
+		return apuntes;
+	}
+
+	public void setApuntes(String apuntes) {
+		this.apuntes = apuntes;
+	}
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 	@Override
 	public String toString() {
-		return "CursoPrivado [curso=" + curso + ", descripcion=" + descripcion + ", enlace=" + enlace + "]";
+		return "CursoPrivado [curso=" + curso + ", descripcion=" + descripcion + ", enlace=" + enlace + ",apuntes=" +  apuntes +"]";
 	}
 	
 }

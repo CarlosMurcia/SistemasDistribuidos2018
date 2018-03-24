@@ -1,18 +1,19 @@
 <html>
 <center>
-	<h1>Cursos Privados</h1>
+	<h1><font face= "Monospace">CURSOS PREMIUM</font></h1>
 	<head>
 	<meta charset="UTF-8"/>
 	</head>
-	<body style="background-color:#F5F5F5;">
+	<body style="background-color:#65919a;">
 	 	<p style="border: ridge #000000 1px;">
-			{{#privados}}
-			{{curso}} {{descripcion}} {{enlace}} 
-			<a href="/reserva"><button>Reservar</button></a><br></br>
-			{{/privados}}
+			{{#CursoPrivados}}
+			{{curso}} {{descripcion}}
+			<a href="{{enlace}}"target="_blank"><button>Videos</button></a>
+			<a href="{{apuntes}}"target="_blank"><button>Apuntes</button></a><br></br>
+			{{/CursoPrivados}}
 		</p>
 		<br><br/>
-		<a href="/Inicio"><button>Volver</button></a>
+		<a href="/home"><button>Volver</button></a>
 		<br><br/>
 	</body>
 </html>

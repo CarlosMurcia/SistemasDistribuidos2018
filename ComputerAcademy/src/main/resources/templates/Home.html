@@ -1,32 +1,55 @@
+<!DOCTYPE html>
 <html>
-<center>
-<h1>Computer Academy</h1>
-<head>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/estilos.css">
+ 
+ <title>Computer Academy</title>
+ </head>
 
-	<meta charset="UTF-8"/>
-</head>
-<body style="background-color:#F5F5F5;">
-
-	<form action="/Inicio" method="post">
-		<p>Introduce tu email: </p>
-		<input type='text' name='email'/>
-		<input type='submit' value='Acceder'/>	
-	</form>
-		<br>
-		<a href="/usuario/nuevo"><button>Regístrate</button></a>
-		<br><br/>
-		<a href="/foro"><button>Participa en nuestro foro</button></a>
-		<br><br/>
-		<a href="/publico"><button>Cursos Gratuitos</button></a>
-		<br><br/>
-		<br><br/>
-		</center>
-		<b>Foro: </b>
-			<p style="border: ridge #000000 1px;">
-			{{#foros}}
-			{{nombre}} {{comentario}}<br></br>
-			{{/foros}}
-			</p>
-		<br><br/>
+<body>
+<h1>Área Privada</h1>
+<p>Bienvenido al área privada de Computer Academy </p>
+<br>
+<div class="flip">
+    <div class="front" style="background-image: url(/media/images/fondocursos.png)">
+       <h1 class="text-shadow">Cursos Gratuitos</hi>
+    </div>
+    <div class="back">
+       <h2><a href="/publico" style="text-decoration:none">Cursos Gratuitos</a></h2>
+       <p>Cursos de libre acceso para aprender a programar en varios lenguajes</p>
+    </div>
+</div>
+<div class="flip">
+    <div class="front" style="background-image: url(/media/images/fondocursos.png)">
+       <h1 class="text-shadow">Cursos Privados</hi>
+    </div>
+    <div class="back">
+       <h2><a href="/privado" style="text-decoration:none">Cursos Privados</a></h2>
+       <p>Cursos Premium para aprender a programar en nivel avanzado</p>
+    </div>
+</div>
+<div class="flip">
+    <div class="front" style="background-image: url(/media/images/fondocursos.png)">
+       <h1 class="text-shadow">Salir</hi>
+    </div>
+    <div class="back">
+       <h2><a href="/loginout" style="text-decoration:none">Salir</a></h2>
+       <p>Esperamos verte pronto</p>
+	</div>
+</div>
+{{#admin}}
+ <div class="flip">
+    <div class="front" style="background-image: url(/media/images/fondocursos.png)">
+       <h1 class="text-shadow">Administrador</hi>
+    </div>
+    <div class="back">
+       <h2><a href="/admin" style="text-decoration:none">Administrador</a></h2>
+       <p>Administra los curso</p>
+	</div>
+ </div>
+{{/admin}}
 </body>
 </html>

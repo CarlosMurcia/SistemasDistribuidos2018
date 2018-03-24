@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/estilos.css">
+ 
+ 	<title>Computer Academy</title>
+	</head>
+<body>
+<h1>COMPUTER ACADEMY</h1>
+<br>
+<form action="/" method="post">
+		
+			<label>Usuario:</label><input type="text" name="username" />		
+			<label>Contraseña:</label><input type="password" name="password" /><br><br/>
+			<input type="submit" value="Entrar" /><br />				
+			<input type="hidden" name="_csrf" value="{{token}}"/>
+</form>
+<br>
+<div class="flip">
+    <div class="front" style="background-image: url(/media/images/fondocursos.png)">
+       <h1 class="text-shadow">Cursos Gratuitos</hi>
+    </div>
+    <div class="back">
+       <h2><a href="/publico" style="text-decoration:none">Cursos Gratuitos</a></h2>
+       <p>Cursos de libre acceso para aprender a programar en varios lenguajes</p>
+    </div>
+</div>
+<div class="flip">
+    <div class="front" style="background-image: url(/media/images/fondocursos.png)">
+       <h1 class="text-shadow">Foro</hi>
+    </div>
+    <div class="back">
+       <h2><a href="/foro" style="text-decoration:none">Foro</a></h2>
+       <p>Foro para hablar de temas relacionados con la programación. Dudas y preguntas.</p>
+    </div>
+</div>
+<div class="flip">
+    <div class="front" style="background-image: url(/media/images/fondocursos.png)">
+       <h1 class="text-shadow">Regístrate</hi>
+    </div>
+    <div class="back">
+       <h2><a href="/usuario/nuevo" style="text-decoration:none">Regístrate</a></h2>
+       <p>Regístrate y podrás acceder a nuestros cursos premium</p>
+	</div>
+</div>
+ <div class="flip">
+    <div class="front" style="background-image: url(/media/images/fondocursos.png)">
+       <h1 class="text-shadow">Contacto</hi>
+    </div>
+    <div class="back">
+       <h2><a href="/contactar" style="text-decoration:none">Contacto</a></h2>
+       <p>Contacta con nosotros</p>
+	</div>
+</div>
+</body>
+</html>
