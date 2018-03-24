@@ -20,8 +20,11 @@ Mediante servicio Rest, al registrarse, manda un correo al usuario.
   
 ## Capturas de Pantalla
  * _Login_: Aquí podemos registrarnos para entrar en la zona premium, partcipar en el foro y acceder a los cursos publicos.
+ 
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/LoginFaseIII.jpg" />
+
  * _Cursos Públicos_: Acceso a los cursos públicos que se ofrecen.
+ 
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/CursosPublicosFaseIII.jpg" />
  * _Foro_: Se podrá participar en el foro y preguntar o resolver dudas.
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/ForoFaseIII.jpg" />
