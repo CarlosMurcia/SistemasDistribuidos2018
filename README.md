@@ -26,15 +26,24 @@ Mediante servicio Rest, al registrarse, manda un correo al usuario.
  * _Cursos Públicos_: Acceso a los cursos públicos que se ofrecen.
  
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/CursosPublicosFaseIII.jpg" />
+
  * _Foro_: Se podrá participar en el foro y preguntar o resolver dudas.
+ 
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/ForoFaseIII.jpg" />
+
  * _Área privada usuario_: Una vez logueado, se podrá elegir entre los cursos públicos que teníamos antes y los cursos privados.
+ 
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/AreaPrivadaUsuarioFaseIII.jpg" />
  * _Cursos Privados_: Acceso a los cursos privados.
+ 
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/CursosPrivadosFaseIII.jpg" />
+
  * _Área privada administrador_: Se podrá observar una lista de los usuarios registrados hasta ese momento, además de introducir nuevos  cursos públicos y privados.
+ 
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/AreaPrivadaAdminFaseIII.jpg" />
+
  * _Lista de usuarios_: Desde la sección de administrador se podrá acceder a la lista de usuarios registrados.
+ 
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/UsuariosRegistradosFaseIII.jpg" />
 ## Diagramas
 
