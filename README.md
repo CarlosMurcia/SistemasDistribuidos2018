@@ -47,6 +47,62 @@ Mediante servicio Rest, al registrarse, manda un correo al usuario.
  
 <img src="https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/UsuariosRegistradosFaseIII.jpg" />
 
+## Despliegue de la Aplicación
+
+  * Descargamos Vagrant www.vagrantup.com/downloads.html y VirtualBox https://www.virtualbox.org/wiki/Downloads.
+  * Realizamos la instalación de ambos y abrimos la consola de comandos.
+  * Nos desplazamos hasta el directorio vagrant y allí creamos un nuevo directorio
+  ```
+    mkdir practicassdd.
+  ```
+  * Dentro de este directorio empezamos a introducir los comandos vagrant, el primero es 
+  ```
+    vagrant init ubuntu/trusty64.
+  ```
+  * Después introduciremos el comando "vagrant up", en este paso estaremos instalando la máquina virtual.
+  * Tras esperar unos minutos ya tendremos instalada la máquina virtual y podemos acceder a ella con el comando vagrant ssh.Aqui todavía no tendremos la aplicación desplegada, solo tendremos la maquina instalada.
+  * A continuación tendremos que modificar una línea en el archivo vagrantfile del directorio donde hemos instalado nuestra máquina virtual. La línea que modificaremos será #config.vm.network "private_network", ip: "192.168.33.10". Lo único que tendremos que hacer es quitar el comentario (eliminar #), y nos quedaría de la siguiente manera config.vm.network "private_network", ip: "192.168.33.10".
+  * Verificamos una vez realizado el cambio que la maquina tiene acceso a internet y conexión al exterior.
+  * Una vez comprobado esto, instalaremos Java y MySql, que nos hará falta para que funcione nuestra aplicación.
+  * Java se instala con los siguientes comandos.
+  ```
+     sudo add-apt-repository ppa:openjdk-r/ppa
+     sudo apt-get update
+     sudo apt-get install openjdk-8-jre
+  ```
+  * Esperamos y tendremos instalado java, después, instaláremos MySql con los siguientes comandos.
+  ```
+     sudo apt-get update
+     sudo apt-get install -y mysql-server
+  ```
+  * Instalado java y mysql vamos a configurar la BBDD
+  * Accedemos como root 
+  ```
+     mysql -u root -p
+  ```
+  * Una vez dentro creemos la base de datos
+  ```
+     CREATE DATABASE academy;
+  ```
+  * Verificamos que se ha creado 
+  ```
+     SHOW  DATABASES;
+  ```
+  * Una vez comprobado salimos con éxito.
+  * Ya tenemos la máquina virtual totalmente funcional, ahora vamos a compilar el proyecto y a desplegarlo.
+  * En Spring, pulsamos sobre el botón derecho---- Run As------ Maven Buil-----y en el apartado Goals escribimos clean package y le damos a Run
+  * Compilado el proyecto tendremos que copiar nuestro jar al directorio vagrant/practicassdd y rn nuestra consola de comando introducimos lo siguiente.
+  ```
+     vagrant up
+     vagrant ssh
+     java -jar SistemasDistribuidos2018-0.0.1-SNAPSHOT.jar
+  ```
+  * Abrimos el navegador e introducimos la dirección 192.168.33.10:8080.
+  * Tendremos nuestra aplicación funcionando.
+
+ 
+  
+  
 ## Diagramas
 
 - [DIAGRAMA DE NAVEGACIÓN](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Diagrama%20Navegaci%C3%B3n.JPG)
