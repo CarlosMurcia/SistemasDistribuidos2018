@@ -76,7 +76,7 @@ public class HomeController {
 	 	roles.add("ROLE_USER");
 	 	usuarios.setRoles(roles);
 	 	repository.save(usuarios);
-	 	new Comunicacion().enviar(usuarios.getEmail(), "Servicio Interno", "Tu Registro ha sido un éxito, Ahora puedes disfrutar de nuestros curso privados.");
+	 	new Comunicacion().enviar(usuarios.getEmail(), "Servicio Interno", "Tu Registro ha sido un éxito, Ahora puedes disfrutar de nuestros cursos privados.");
 		
 		return "UsuarioGuardado";
 	}
@@ -127,10 +127,16 @@ public class HomeController {
 
 	}
 	
-	@PostMapping("/curso/guardado")
-	public String Comentario (Model model, CursoPublico cursospublico,CursoPrivado cursosprivado) {
+	@PostMapping("/guardado/publico")
+	public String CursoGuardadoPublico (Model model, CursoPublico cursospublico) {
 		
 		repository2.save(cursospublico);
+
+		return "CursoGuardado";
+	}
+	@PostMapping("/guardado/privado")
+	public String CursoGuardadoPrivado (Model model,CursoPrivado cursosprivado) {
+		
 		repository3.save(cursosprivado);
 
 		return "CursoGuardado";
