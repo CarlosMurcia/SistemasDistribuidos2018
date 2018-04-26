@@ -110,6 +110,10 @@ Mediante servicio Rest, al registrarse, manda un correo al usuario.
   * Configuramos el Backend
   * Tendremos nuestra aplicación desplegada en varios servidores.
   
+## Esquema Despliegue
+ 
+<img src="https://github.com/RosaRM/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Despliegue.jpg/>
+          
 ## Diagramas
 
 - [DIAGRAMA DE NAVEGACIÓN](https://github.com/CarlosMurcia/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Diagrama%20Navegaci%C3%B3n.JPG)
