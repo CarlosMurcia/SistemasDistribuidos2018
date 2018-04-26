@@ -99,9 +99,16 @@ Mediante servicio Rest, al registrarse, manda un correo al usuario.
   ```
   * Abrimos el navegador e introducimos la dirección 192.168.33.10:8080.
   * Tendremos nuestra aplicación funcionando.
-
- 
   
+  * Instalación HAProxy
+  ```
+     sudo apt-get update
+     sudo apt-get install haproxy
+     sudo vi /etc/haproxy/haproxy.cfg
+  ```
+  * Configuramos el Frontend
+  * Configuramos el Backend
+  * Tendremos nuestra aplicación desplegada en varios servidores.
   
 ## Diagramas
 
