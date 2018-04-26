@@ -112,7 +112,7 @@ Mediante servicio Rest, al registrarse, manda un correo al usuario.
   
 ## Esquema Despliegue
  
-<img src="https://github.com/RosaRM/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Despliegue.jpg/>
+<img src="https://github.com/RosaRM/SistemasDistribuidos2018/blob/master/ComputerAcademy/Imagenes/Despliegue.jpg"/>
           
 ## Diagramas
 
